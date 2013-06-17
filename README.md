@@ -16,6 +16,16 @@ At least these files are missing. If you have any of them, or know of other file
 * `truecrypt-4.3.zip.sig`
 * `truecrypt-4.3-source-code.zip`
 * `truecrypt-4.3-source-code.zip.sig`
+* `truecrypt-4.3a-ubuntu-6.06-x86.tar.gz`
+* `truecrypt-4.3a-ubuntu-6.06-x86.tar.gz.sig`
+* `truecrypt-4.3a-ubuntu-7.04-x64.tar.gz`
+* `truecrypt-4.3a-ubuntu-7.04-x64.tar.gz.sig`
+* `truecrypt-4.3a-ubuntu-7.04-x86.tar.gz`
+* `truecrypt-4.3a-ubuntu-7.04-x86.tar.gz.sig`
+* `truecrypt-4.3a-opensuse-10.2-x86.tar.gz`
+* `truecrypt-4.3a-opensuse-10.2-x86.tar.gz.sig`
+* `truecrypt-4.3a-source-code.tar.gz`
+* `truecrypt-4.3a-source-code.tar.gz.sig`
 
 ## Verifying the integrity
 
