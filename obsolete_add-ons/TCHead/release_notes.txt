@@ -1,0 +1,29 @@
+TCHead Release Notes
+
+* General
+
+TCHead only decrypts the header, nothing else. To decrypt further,
+use the discovered password with TrueCrypt to perform a mount.
+
+* Build
+
+To compile TCHead, you need a modern C++ compiler, Boost and Botan. 
+See the build scripts for details on linking, etc. It's simple to build.
+Statically linked binaries for Windows and Linux are provided.
+
+* Versions
+
+* 0.1 
+Release Date - December 4th, 2011
+Supported Volume Header Version - The v5 structure (TrueCrypt 7.0 to Present)
+Supported Hashes - RIPEMD-160, SHA-512, Whirlpool 
+Supported Ciphers - AES, Serpent, Twofish
+Supported Modes - XTS
+Unsupported - Cascading ciphers and key files.
+
+* 0.2
+Release Date - December 16th, 2011
+Added support for decrypting hidden volume headers (--hidden option)
+Other small clean-ups and enhancements.
+
+
