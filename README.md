@@ -4,6 +4,7 @@ This is a tin foil hat area. Please put on your tin foil hat before proceeding.
 
 Most of the files are from this collection: http://cyberside.net.ee/truecrypt/. A **BIG** thanks to 16systems and CyR for collecting!
 
+
 ## Missing files
 
 At least these files are missing. If you have any of them, or know of other files that have been released by the TrueCrypt developers, please contact me! One idea is that they may be found on magazine CDs.
@@ -26,6 +27,16 @@ At least these files are missing. If you have any of them, or know of other file
 * `truecrypt-4.3a-opensuse-10.2-x86.tar.gz.sig`
 * `truecrypt-4.3a-source-code.tar.gz`
 * `truecrypt-4.3a-source-code.tar.gz.sig`
+
+
+## Past versions
+
+The TrueCrypt website offers downloads of _past versions_. Currently they offer versions 7.0a, 6.3a and 5.1a for Windows, while only 7.0a and 6.3a for Mac OS X and Linux. I found this interesting note in the version history:
+
+> Note: TrueCrypt 4.3a and 5.1a have been repackaged to contain the latest version of the TrueCrypt License introduced with TrueCrypt 6.0 (the original application and driver binaries of those old versions have not been modified; however, the installer used for those new packages was compiled using the source code of TrueCrypt 6.0, not TrueCrypt 5.1a).
+
+This means that there are two different 4.3a and 5.1a, with different licenses. Presumably 4.3a was offered as a _past versions_ download in the past.
+
 
 ## Verifying the integrity
 
