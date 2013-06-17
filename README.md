@@ -4,6 +4,18 @@ This is a tin foil hat area. Please put on your tin foil hat before proceeding.
 
 Most of the files are from this collection: http://cyberside.net.ee/truecrypt/. A **BIG** thanks to 16systems and CyR for collecting!
 
+## Missing files
+
+At least these files are missing. If you have any of them, or know of other files that have been released by the TrueCrypt developers, please contact me! One idea is that they may be found on magazine CDs.
+
+* `truecrypt-1.0a-source-code.zip`
+* `truecrypt-3.0.zip`
+* `truecrypt-3.0.zip.sig`
+* `truecrypt-3.0-source-code.zip`
+* `truecrypt-3.0-source-code.zip.sig`
+* `truecrypt-4.3.zip.sig`
+* `truecrypt-4.3-source-code.zip`
+* `truecrypt-4.3-source-code.zip.sig`
 
 ## Verifying the integrity
 
@@ -21,7 +33,7 @@ There are three public keys from the TrueCrypt developers.
     * Both Foundation keys can verify the same files.
     * Same creation time as the previous key, but the date `Tue Mar 20 22:52:24 CET 2007` can be seen in pgpdump output. Presumably this is when this file was released (the day after 4.3 was released).
 
-I am not a cryptograph expert, so I do not know the significance the second Foundation key presents. It is evident however, that the TrueCrypt developers have difficulty deciding what they want to call themselves and what email address they use.
+I am not a cryptography expert, so I do not know the significance the second Foundation key presents. It is evident however, that the TrueCrypt developers have difficulty deciding what they want to call themselves and what email address they use.
 
 1. `TrueCrypt Team <mail@truecrypt.org>`
 2. `TrueCrypt Foundation <info@truecrypt-foundation.org>`
@@ -57,9 +69,9 @@ I made a bash script, like so:
 #!/bin/bash
 for f in *.sig
 do
-  echo "Verifying $f"
-	gpg --verify "$f"
-	echo
+    echo "Verifying $f"
+    gpg --verify "$f"
+    echo
 done
 ```
 1. Save as `~/verify-sigs.sh`
@@ -69,7 +81,7 @@ done
 5. Run `~/verify-sigs.sh &>verification.txt` to save the output to file.
 
 
-### Delete key
+### Delete keys
 
 ```
 gpg --delete-key "TrueCrypt"
