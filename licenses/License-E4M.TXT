@@ -1,0 +1,56 @@
+License agreement for Encryption for the Masses.
+
+Copyright (C) 1998-2000 Paul Le Roux. All Rights Reserved.
+
+This product can be copied and distributed free of charge, including
+source code.
+
+You may modify this product and source code, and distribute such modifications, 
+and you may derive new works based on this product, provided that:
+
+1. Any product which is simply derived from this product cannot be
+called E4M, or Encryption for the Masses.
+
+2. If you use any of the source code in your product, and your product
+is distributed with source code, you must include this notice with
+those portions of this source code that you use. 
+
+Or, 
+
+If your product is distributed in binary form only, you must display
+on any packaging, and marketing materials which reference
+your product, a notice which states: 
+
+"This product uses components written by Paul Le Roux <pleroux@swprofessionals.com>"
+
+3. If you use any of the source code originally by Eric Young, you must
+in addition follow his terms and conditions.
+
+4. Nothing requires that you accept this License, as you have not
+signed it. However, nothing else grants you permission to modify or
+distribute the product or its derivative works.
+
+These actions are prohibited by law if you do not accept this License.
+
+5. If any of these license terms is found to be to broad in scope, and  
+declared invalid by any court or legal process, you agree that all other
+terms shall not be so affected, and shall remain valid and enforceable.
+
+6. THIS PROGRAM IS DISTRIBUTED FREE OF CHARGE, THEREFORE THERE IS NO WARRANTY 
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. UNLESS OTHERWISE 
+STATED THE PROGRAM IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER 
+EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE 
+QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE 
+DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+7. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+OUT OF THE USE OR INABILITY TO USE THE PROGRAM, INCLUDING BUT NOT LIMITED
+TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+PROGRAMS, EVEN IF SUCH HOLDER OR OTHER PARTY HAD PREVIOUSLY BEEN ADVISED 
+OF THE POSSIBILITY OF SUCH DAMAGES.
+
