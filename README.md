@@ -9,6 +9,8 @@ Most of the files are from this collection: http://cyberside.net.ee/truecrypt/. 
 
 At least these files are missing. If you have any of them, or know of other files that have been released by the TrueCrypt developers, please contact me! One idea is that they may be found on magazine CDs.
 
+Most wanted:
+
 * `truecrypt-1.0a-source-code.zip`
 * `truecrypt-3.0.zip`
 * `truecrypt-3.0.zip.sig`
@@ -18,6 +20,11 @@ At least these files are missing. If you have any of them, or know of other file
 * `truecrypt-4.3-source-code.zip`
 * `truecrypt-4.3-source-code.zip.sig`
 * `truecrypt-4.3-source-code.tar.gz.sig`
+* `TrueCrypt Setup 4.3a.exe.sig` (first re-release, see [License History](https://github.com/stefansundin/truecrypt-archive/wiki/License-History))
+* `TrueCrypt Setup 4.3a-2.exe` (second re-release, see [License History](https://github.com/stefansundin/truecrypt-archive/wiki/License-History), released as `TrueCrypt Setup 4.3a.exe`)
+
+Not as important:
+
 * `truecrypt-4.3a-ubuntu-6.06-x86.tar.gz`
 * `truecrypt-4.3a-ubuntu-6.06-x86.tar.gz.sig`
 * `truecrypt-4.3a-ubuntu-7.04-x64.tar.gz`
@@ -37,6 +44,8 @@ The TrueCrypt website offers downloads of _past versions_. Currently they offer 
 > Note: TrueCrypt 4.3a and 5.1a have been repackaged to contain the latest version of the TrueCrypt License introduced with TrueCrypt 6.0 (the original application and driver binaries of those old versions have not been modified; however, the installer used for those new packages was compiled using the source code of TrueCrypt 6.0, not TrueCrypt 5.1a).
 
 This means that there are two different 4.3a and 5.1a, with different licenses. Presumably 4.3a was offered as a _past versions_ download in the past.
+
+See [License History](https://github.com/stefansundin/truecrypt-archive/wiki/License-History) for more information.
 
 
 ## Verifying the integrity
