@@ -17,16 +17,17 @@ At least these files are missing. If you have any of them, or know of other file
 * `truecrypt-4.3.zip.sig`
 * `truecrypt-4.3-source-code.zip`
 * `truecrypt-4.3-source-code.zip.sig`
+* `truecrypt-4.3-source-code.tar.gz.sig`
 * `truecrypt-4.3a-ubuntu-6.06-x86.tar.gz`
 * `truecrypt-4.3a-ubuntu-6.06-x86.tar.gz.sig`
 * `truecrypt-4.3a-ubuntu-7.04-x64.tar.gz`
 * `truecrypt-4.3a-ubuntu-7.04-x64.tar.gz.sig`
 * `truecrypt-4.3a-ubuntu-7.04-x86.tar.gz`
 * `truecrypt-4.3a-ubuntu-7.04-x86.tar.gz.sig`
-* `truecrypt-4.3a-opensuse-10.2-x86.tar.gz`
 * `truecrypt-4.3a-opensuse-10.2-x86.tar.gz.sig`
-* `truecrypt-4.3a-source-code.tar.gz`
-* `truecrypt-4.3a-source-code.tar.gz.sig`
+* `TrueCrypt 5.0 Source.tar.gz.sig`
+* `TrueCrypt 5.1 Source.tar.gz`
+* `TrueCrypt 5.1 Source.tar.gz.sig`
 
 
 ## Past versions
@@ -90,7 +91,7 @@ I made a bash script, like so:
 #!/bin/bash
 for f in *.sig
 do
-    echo "Verifying $f"
+    echo "Verifying '$f'"
     gpg --verify "$f"
     echo
 done
@@ -100,6 +101,31 @@ done
 3. `cd truecrypt-archive`
 4. Just run `~/verify-sigs.sh` to verify all files.
 5. Run `~/verify-sigs.sh &>verification.txt` to save the output to file.
+
+
+#### Windows
+
+In Windows you can use this bat script:
+```
+@echo off
+for %%f in (*.sig) do (
+    echo Verifying '%%~nf'
+    gpg --verify "%%f"
+    echo.
+)
+```
+Save it as `verify-sigs.bat` and put it in `PATH`, e.g. the Windows directory.
+
+It can also be useful to associate .sig files with this bat script:
+```
+@echo off
+echo Verifying '%~n1'
+echo.
+gpg --verify %1
+echo.
+pause
+```
+Save it as `verify-sig.bat` and associate .sig files with it. Then simply double-click a .sig file to verify it.
 
 
 ### Delete keys
