@@ -33,8 +33,29 @@ Not as important:
 * `truecrypt-4.3a-ubuntu-7.04-x86.tar.gz.sig`
 * `truecrypt-4.3a-opensuse-10.2-x86.tar.gz.sig`
 * `TrueCrypt 5.0 Source.tar.gz.sig`
+* `TrueCrypt 5.0 Leopard Intel.dmg`
+* `TrueCrypt 5.0 Leopard Intel.dmg.sig`
+* `TrueCrypt 5.0 Leopard PowerPC.dmg`
+* `TrueCrypt 5.0 Leopard PowerPC.dmg.sig`
+* `TrueCrypt 5.0 Tiger Intel.dmg`
+* `TrueCrypt 5.0 Tiger Intel.dmg.sig`
+* `TrueCrypt 5.0 Tiger PowerPC.dmg`
+* `TrueCrypt 5.0 Tiger PowerPC.dmg.sig`
+* `truecrypt-5.0-opensuse-x86.tar.gz`
+* `truecrypt-5.0-opensuse-x86.tar.gz.sig`
+* `truecrypt-5.0-ubuntu-x86.tar.gz.sig`
+* `TrueCrypt 5.0a Leopard Intel.dmg.sig`
+* `TrueCrypt 5.0a Leopard PowerPC.dmg`
+* `TrueCrypt 5.0a Leopard PowerPC.dmg.sig`
+* `TrueCrypt 5.0a Tiger Intel.dmg`
+* `TrueCrypt 5.0a Tiger Intel.dmg.sig`
+* `TrueCrypt 5.0a Tiger PowerPC.dmg`
+* `TrueCrypt 5.0a Tiger PowerPC.dmg.sig`
 * `TrueCrypt 5.1 Source.tar.gz`
 * `TrueCrypt 5.1 Source.tar.gz.sig`
+* `truecrypt-5.1-ubuntu-x86.tar.gz`
+* `truecrypt-5.1-ubuntu-x86.tar.gz.sig`
+* `TrueCrypt 6.3 Mac OS X.dmg.sig`
 
 
 ## Past versions
