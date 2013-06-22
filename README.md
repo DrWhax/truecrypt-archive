@@ -18,7 +18,10 @@ Most wanted:
 * `truecrypt-4.3-source-code.zip`
 * `truecrypt-4.3-source-code.zip.sig`
 * `truecrypt-4.3-source-code.tar.gz.sig`
-* `TrueCrypt Setup 4.3a-2.exe` (second re-release, see [License History](https://github.com/stefansundin/truecrypt-archive/wiki/License-History), released as `TrueCrypt Setup 4.3a.exe`)
+* `TrueCrypt Setup 4.3a-2.exe`
+    * Second re-release, with `TrueCrypt Collective License Version 1.4` (`TrueCrypt License Version 2.5`).
+    * See [License History](https://github.com/stefansundin/truecrypt-archive/wiki/License-History).
+    * Released as `TrueCrypt Setup 4.3a.exe`.
 
 Not as important:
 
