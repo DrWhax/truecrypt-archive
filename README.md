@@ -22,6 +22,9 @@ Most wanted:
     * Second re-release, with `TrueCrypt Collective License Version 1.4` (`TrueCrypt License Version 2.5`).
     * See [License History](https://github.com/stefansundin/truecrypt-archive/wiki/License-History).
     * Released as `TrueCrypt Setup 4.3a.exe`.
+* `TrueCrypt 5.0 Source.tar.gz.sig`
+* `TrueCrypt 5.1 Source.tar.gz`
+* `TrueCrypt 5.1 Source.tar.gz.sig`
 
 Not as important:
 
@@ -32,7 +35,6 @@ Not as important:
 * `truecrypt-4.3a-ubuntu-7.04-x86.tar.gz`
 * `truecrypt-4.3a-ubuntu-7.04-x86.tar.gz.sig`
 * `truecrypt-4.3a-opensuse-10.2-x86.tar.gz.sig`
-* `TrueCrypt 5.0 Source.tar.gz.sig`
 * `TrueCrypt 5.0 Leopard Intel.dmg`
 * `TrueCrypt 5.0 Leopard Intel.dmg.sig`
 * `TrueCrypt 5.0 Leopard PowerPC.dmg`
@@ -51,8 +53,6 @@ Not as important:
 * `TrueCrypt 5.0a Tiger Intel.dmg.sig`
 * `TrueCrypt 5.0a Tiger PowerPC.dmg`
 * `TrueCrypt 5.0a Tiger PowerPC.dmg.sig`
-* `TrueCrypt 5.1 Source.tar.gz`
-* `TrueCrypt 5.1 Source.tar.gz.sig`
 * `truecrypt-5.1-ubuntu-x86.tar.gz`
 * `truecrypt-5.1-ubuntu-x86.tar.gz.sig`
 * `TrueCrypt 6.3 Mac OS X.dmg.sig`
