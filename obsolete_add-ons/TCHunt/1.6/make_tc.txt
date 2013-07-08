@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# A bash script to generate 24,000 test TrueCrypt volumes on Linux systems
+# Please email any volumes not identified by TCHunt
+# to tchunt@16s.us
+
+password="123"
+count=0
+
+while [ $count -lt 1000 ]
+do
+
+for algo in "AES" "Serpent" "Twofish" "AES-Twofish" "AES-Twofish-Serpent" "Serpent-AES" "Serpent-Twofish-AES" "Twofish-Serpent"
+  do
+    for hash in "RIPEMD-160" "SHA-512" "Whirlpool"
+      do
+        for size in "307200"
+          do
+            #echo $algo $hash $size      
+            truecrypt -t -c --volume-type=Normal --encryption=$algo --hash=$hash --filesystem=FAT -k "" -p $password  --random-source=/dev/urandom --size=$size $count-$algo-$hash-$size.tc
+          done
+      done
+  done
+  
+count=$[$count+1]
+echo $count
+done
+

@@ -1,0 +1,22 @@
+## A Python script to generate 24,000 test TrueCrypt volumes on Linux systems
+## Please email any volumes not identified by TCHunt
+## to tchunt@16s.us
+
+import os
+import random
+
+algos = ["AES", "Serpent", "Twofish", "AES-Twofish", "AES-Twofish-Serpent", "Serpent-AES", "Serpent-Twofish-AES", "Twofish-Serpent"]
+hashes = ["RIPEMD-160", "SHA-512", "Whirlpool"]
+filesystem = ["FAT"]
+
+for x in xrange(1000):
+    for a in algos:
+        for h in hashes:
+            for fs in filesystem:
+                
+                # Create Volume
+                if os.system('truecrypt -t -c --volume-type=Normal --encryption=%s --hash=%s --filesystem=%s -k "" -p "123" --random-source=/dev/urandom --size=%s %s-%s.tc' %(a,h,fs,307200,x,a+"-"+h+"-"+fs)) == 0:
+                    pass
+                else:
+                    os.unlink("%s-%s-%s.tc" %(a,h,fs))
+
