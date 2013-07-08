@@ -1,0 +1,6 @@
+Known Issues with TCHunt
+
+1.5
+
+  * False positive on encrypted MPQ files in World of WarCraft (MPQ files have a standard header. This is corrected in 1.5a)
+  * Non-free software license. Move to GPLv3 in TCHunt 1.5a.

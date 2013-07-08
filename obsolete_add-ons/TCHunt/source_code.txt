@@ -1,0 +1,3 @@
+TCHunt 1.5a source code is hosted on github: https://github.com/16s/TCHunt
+
+As of TCHunt 1.5a, the source code is GPLv3 licensed.
