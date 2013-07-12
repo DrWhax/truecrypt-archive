@@ -54,6 +54,8 @@ Not as important:
 * `truecrypt-5.1-ubuntu-x86.tar.gz`
 * `truecrypt-5.1-ubuntu-x86.tar.gz.sig`
 * `TrueCrypt 6.3 Mac OS X.dmg.sig`
+* `truecrypt-4.2a-fedora-core-4-x86.tar.gz.sig`
+* `truecrypt-4.2a-fedora-core-5-x86.tar.gz.sig`
 
 
 ## Past versions
