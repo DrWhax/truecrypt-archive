@@ -14,13 +14,9 @@ Most wanted:
 * `truecrypt-1.0a-source-code.zip`
 * `truecrypt-3.0.zip`
 * `truecrypt-3.0-source-code.zip`
-* `truecrypt-4.3.zip.sig`
 * `truecrypt-4.3-source-code.zip`
 * `truecrypt-4.3-source-code.zip.sig`
-* `truecrypt-4.3-source-code.tar.gz.sig`
 * `TrueCrypt 5.0 Source.tar.gz.sig`
-* `TrueCrypt 5.1 Source.tar.gz`
-* `TrueCrypt 5.1 Source.tar.gz.sig`
 
 Not as important:
 
