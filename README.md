@@ -2,12 +2,18 @@
 
 This is a tin foil hat area. Please put on your tin foil hat before proceeding.
 
-Most of the files are from this collection: http://cyberside.net.ee/truecrypt/. A **BIG** thanks to 16systems and CyR for collecting!
+Most of the files are from different collections that people have provided. 
+- http://cyberside.net.ee/truecrypt/ (credit to 16systems and CyR for collecting!)
+- Different forums and random websites (see commit messages)
+- Anonymous submissions via email (you are anonymous unless you specify you want credit)
 
+If you have any new files, either in the list below or files that we don't know about, please contact us!
+
+We try to get signature files for everything, but sometimes we often include files even if we lack signature files, if the source seems trustworthy. Please be aware of this, and trust the files accordingly.
 
 ## Missing files
 
-At least these files are missing, and there are most likely a lot more files that we don't know about. If you have any of them, or know of other files that have been released by the TrueCrypt developers, please contact me! One idea is that they may be found on magazine CDs.
+At least these files are missing, and there are probably a lot more files that we don't know about.
 
 Most wanted:
 
@@ -77,7 +83,7 @@ See [License History](doc/License-History.md) for more information.
 
 ## Verifying the integrity
 
-There are four signature files that the TrueCrypt developers have released.
+There are four keyfiles that the TrueCrypt developers have released.
 
 1. `TrueCrypt_Team_PGP_public_key.asc`
     * This is the first key, used only for version 1.0 and 1.0a.
