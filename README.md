@@ -7,7 +7,7 @@ Most of the files are from this collection: http://cyberside.net.ee/truecrypt/. 
 
 ## Missing files
 
-At least these files are missing. If you have any of them, or know of other files that have been released by the TrueCrypt developers, please contact me! One idea is that they may be found on magazine CDs.
+At least these files are missing, and there are most likely a lot more files that we don't know about. If you have any of them, or know of other files that have been released by the TrueCrypt developers, please contact me! One idea is that they may be found on magazine CDs.
 
 Most wanted:
 
@@ -18,6 +18,8 @@ Most wanted:
 
 Not as important:
 
+* `truecrypt-4.2a-fedora-core-4-x86.tar.gz.sig`
+* `truecrypt-4.2a-fedora-core-5-x86.tar.gz.sig`
 * `truecrypt-4.2a-ubuntu-5.10-x86.tar.gz`
 * `truecrypt-4.2a-ubuntu-5.10-x86.tar.gz.sig`
 * `truecrypt-4.3a-ubuntu-6.06-x86.tar.gz`
@@ -35,7 +37,6 @@ Not as important:
 * `TrueCrypt 5.0 Tiger Intel.dmg.sig`
 * `TrueCrypt 5.0 Tiger PowerPC.dmg`
 * `TrueCrypt 5.0 Tiger PowerPC.dmg.sig`
-* `truecrypt-5.0-opensuse-x86.tar.gz`
 * `truecrypt-5.0-opensuse-x86.tar.gz.sig`
 * `truecrypt-5.0-ubuntu-x86.tar.gz.sig`
 * `TrueCrypt 5.0a Leopard Intel.dmg.sig`
@@ -45,11 +46,7 @@ Not as important:
 * `TrueCrypt 5.0a Tiger Intel.dmg.sig`
 * `TrueCrypt 5.0a Tiger PowerPC.dmg`
 * `TrueCrypt 5.0a Tiger PowerPC.dmg.sig`
-* `truecrypt-5.1-ubuntu-x86.tar.gz`
 * `truecrypt-5.1-ubuntu-x86.tar.gz.sig`
-* `TrueCrypt 6.3 Mac OS X.dmg.sig`
-* `truecrypt-4.2a-fedora-core-4-x86.tar.gz.sig`
-* `truecrypt-4.2a-fedora-core-5-x86.tar.gz.sig`
 
 
 ## TrueCrypt 7.2
