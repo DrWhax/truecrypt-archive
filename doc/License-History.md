@@ -19,3 +19,4 @@ This is a list of the licenses used in the different TrueCrypt versions.
 * 6.2a: `TrueCrypt License Version 2.7`
 * 6.3, 6.3a: `TrueCrypt License Version 2.8`
 * 7.0, 7.0a, 7.1, 7.1a: `TrueCrypt License Version 3.0`
+* 7.2: `TrueCrypt License Version 3.1`

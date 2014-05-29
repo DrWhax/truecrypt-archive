@@ -1,6 +1,15 @@
 This is basically a copy of [the version history page](http://www.truecrypt.org/docs/version-history) on truecrypt.org.
 
-The versions that have been released are: 1.0, 1.0a, 2.0, 2.1, 2.1a, 3.0, 3.0a, 3.1, 3.1a, 4.0, 4.1, 4.2, 4.2a, 4.3, 4.3a, 5.0, 5.0a, 5.1, 5.1a, 6.0, 6.0a, 6.1, 6.1a, 6.2, 6.2a, 6.3, 6.3a, 7.0, 7.0a, 7.1, 7.1a.
+The versions that have been released are: 1.0, 1.0a, 2.0, 2.1, 2.1a, 3.0, 3.0a, 3.1, 3.1a, 4.0, 4.1, 4.2, 4.2a, 4.3, 4.3a, 5.0, 5.0a, 5.1, 5.1a, 6.0, 6.0a, 6.1, 6.1a, 6.2, 6.2a, 6.3, 6.3a, 7.0, 7.0a, 7.1, 7.1a, 7.2.
+
+# 7.2
+May 28, 2014
+
+**No official changelog is available.**
+
+* The ability to create new volumes was removed.
+* Warnings suggesting that TrueCrypt is insecure was added.
+
 
 # 7.1a
 February 7, 2012
