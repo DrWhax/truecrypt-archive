@@ -92,7 +92,7 @@ There are four signature files that the TrueCrypt developers have released.
     * Same creation time as the previous key, but the date `Tue Mar 20 22:52:24 CET 2007` can be seen in pgpdump output. Presumably this is when this file was released (the day after 4.3 was released).
 4. `TrueCrypt-key.asc` 
     * This file was released with version 7.2. It is actually identical with `TrueCrypt-Foundation-Public-Key.asc`.
-    * It was most likely renamed to avoid attention to the _Foundation_, so that people would focus on message that was released along with 7.2.
+    * It was most likely renamed to avoid attention to the _Foundation_, so that people would focus on the message that was released along with 7.2, and not the authors.
 
 I am not a cryptography expert, so I do not know the significance the second Foundation key presents. It is evident however, that the TrueCrypt developers have difficulty deciding what they want to call themselves and what email address they use.
 
