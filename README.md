@@ -60,6 +60,14 @@ Version 7.2, released 2014-05-28, appears to be the last version of TrueCrypt. T
 
 The warnings that accompany version 7.2 claim that TrueCrypt is not secure, and that people should migrate to BitLocker and other solutions.
 
+The authors write that the development was stopped after Microsoft terminated support for Windows XP. This is an interesting claim since the list of planned future features from the old website included support for Windows 8 and UEFI. This is the list before the website was shut down:
+```
+- Full support for Windows 8
+- Ability to encrypt Windows system partitions/drives on UEFI-based computers
+- Command line options for volume creation (already implemented in Linux and Mac OS X versions)
+- "Raw" CD/DVD volumes
+```
+
 This project will keep going, so please help us collect the remaining files. Thank you!
 
 
