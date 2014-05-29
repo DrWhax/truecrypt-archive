@@ -54,9 +54,18 @@ Not as important:
 * `truecrypt-4.2a-fedora-core-5-x86.tar.gz.sig`
 
 
+## TrueCrypt 7.2
+
+Version 7.2, released 2014-05-28, appears to be the last version of TrueCrypt. The website, forums and all other resources disappeared and was replaced with a scaled-down SourceForge website. The new version seems to be basically 7.1a, but without the ability to create new volumes.
+
+The warnings that accompany version 7.2 claim that TrueCrypt is not secure, and that people should migrate to BitLocker and other solutions.
+
+This project will keep going, so please help us collect the remaining files. Thank you!
+
+
 ## Past versions
 
-The TrueCrypt website offers downloads of _past versions_. Currently they offer versions 7.0a, 6.3a and 5.1a for Windows, while only 7.0a and 6.3a for Mac OS X and Linux. I found this interesting note in the version history:
+The TrueCrypt website used to offer downloads of _past versions_. This is no longer available since 2014-05-28. They used to offer versions 7.0a, 6.3a and 5.1a for Windows, while only 7.0a and 6.3a for Mac OS X and Linux. I found this interesting note in the version history:
 
 > Note: TrueCrypt 4.3a and 5.1a have been repackaged to contain the latest version of the TrueCrypt License introduced with TrueCrypt 6.0 (the original application and driver binaries of those old versions have not been modified; however, the installer used for those new packages was compiled using the source code of TrueCrypt 6.0, not TrueCrypt 5.1a).
 
@@ -65,7 +74,7 @@ See [License History](doc/License-History.md) for more information.
 
 ## Verifying the integrity
 
-There are three public keys from the TrueCrypt developers.
+There are four signature files that the TrueCrypt developers have released.
 
 1. `TrueCrypt_Team_PGP_public_key.asc`
     * This is the first key, used only for version 1.0 and 1.0a.
@@ -78,6 +87,9 @@ There are three public keys from the TrueCrypt developers.
     * This key has the same fingerprint as the previous key, but pgpdump reveals that it is composed differently.
     * Both Foundation keys can verify the same files.
     * Same creation time as the previous key, but the date `Tue Mar 20 22:52:24 CET 2007` can be seen in pgpdump output. Presumably this is when this file was released (the day after 4.3 was released).
+4. `TrueCrypt-key.asc` 
+    * This file was released with version 7.2. It is actually identical with `TrueCrypt-Foundation-Public-Key.asc`.
+    * It was most likely renamed to avoid attention to the _Foundation_, so that people would focus on message that was released along with 7.2.
 
 I am not a cryptography expert, so I do not know the significance the second Foundation key presents. It is evident however, that the TrueCrypt developers have difficulty deciding what they want to call themselves and what email address they use.
 
@@ -126,6 +138,10 @@ done
 4. Just run `~/verify-sigs.sh` to verify all files.
 5. Run `~/verify-sigs.sh &>verification.txt` to save the output to file.
 
+If you don't want a file, you can just run this one-liner:
+```
+for f in *.sig; do echo "Verifying '$f'"; gpg --verify "$f"; echo; done
+```
 
 #### Windows
 
@@ -155,7 +171,7 @@ Save it as `verify-sig.bat` and associate .sig files with it. Then simply double
 ### Delete keys
 
 ```
-gpg --delete-key "TrueCrypt"
+gpg --delete-key TrueCrypt
 ```
 
 Repeat until all keys are gone.
