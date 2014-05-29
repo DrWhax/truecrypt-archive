@@ -11,7 +11,6 @@ At least these files are missing. If you have any of them, or know of other file
 
 Most wanted:
 
-* `truecrypt-1.0a-source-code.zip`
 * `truecrypt-3.0.zip`
 * `truecrypt-3.0-source-code.zip`
 * `truecrypt-4.3-source-code.zip`
