@@ -1,0 +1,11 @@
+language: c
+
+os:
+ - linux
+
+before_script:
+ - gpg --keyserver pgp.mit.edu --recv-keys 0xF0D6B1E0
+ - gpg --import *.asc
+
+script:
+ - gpg -vv --verify-files *.sig
