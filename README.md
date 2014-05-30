@@ -108,7 +108,7 @@ I am not a cryptography expert, so I do not know the significance the second Fou
 This is all very interesting, but let's get on to verifying the signature files.
 
 
-## Verifying the keyfile
+### Verifying the keyfile
 
 You can get the fingerprint of a keyfile by running:
 
