@@ -136,10 +136,7 @@ Alternatively, you can import the keys from a key server directly (via HKP proto
 $ gpg --keyserver pgp.mit.edu --recv-keys 0xF0D6B1E0
 gpg: requesting key F0D6B1E0 from hkp server pgp.mit.edu
 gpg: key F0D6B1E0: public key "TrueCrypt Foundation <info@truecrypt-foundation.org>" imported
-gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
-gpg: depth: 0  valid:   6  signed:   4  trust: 0-, 0q, 0n, 0m, 0f, 6u
-gpg: depth: 1  valid:   4  signed:   0  trust: 3-, 0q, 0n, 0m, 1f, 0u
-gpg: next trustdb check due at 2015-08-18
+gpg: no ultimately trusted keys found
 gpg: Total number processed: 1
 gpg:               imported: 1
 ```
