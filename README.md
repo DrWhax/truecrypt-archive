@@ -92,7 +92,6 @@ There are four keyfiles that the TrueCrypt developers have released.
     * This key has been used for version 2.0 and later.
     * pgpdump: `Public key creation time - Sun Jun  6 11:13:17 CEST 2004`
 3. `TrueCrypt-Foundation-Public-Key.asc`
-    * This is the key that is currently available for download at truecrypt.org. As an exercise, make sure that the key in this repo is authentic.
     * This key has the same fingerprint as the previous key, but pgpdump reveals that it is composed differently.
     * Both Foundation keys can verify the same files.
     * Same creation time as the previous key, but the date `Tue Mar 20 22:52:24 CET 2007` can be seen in pgpdump output. Presumably this is when this file was released (the day after 4.3 was released).
@@ -107,6 +106,20 @@ I am not a cryptography expert, so I do not know the significance the second Fou
 3. `TrueCrypt Foundation <contact@truecrypt.org>`
 
 This is all very interesting, but let's get on to verifying the signature files.
+
+
+## Verifying the keyfile
+
+You can get the fingerprint of a keyfile by running:
+
+```
+$ gpg --with-fingerprint TrueCrypt-Foundation-Public-Key.asc
+pub  1024D/F0D6B1E0 2004-06-06 TrueCrypt Foundation <contact@truecrypt.org>
+      Key fingerprint = C5F4 BAC4 A7B2 2DB8 B8F8  5538 E3BA 73CA F0D6 B1E0
+sub  4077g/6B136ECF 2004-06-06
+```
+
+You can then go to a public key website, e.g. [pgp.mit.edu](https://pgp.mit.edu/), and verify that this is actually an authentic keyfile. Alternatively, and probably a better practice, you can import the keyfiles from the public key server.
 
 
 ### Importing keys
