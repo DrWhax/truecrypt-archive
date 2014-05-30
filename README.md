@@ -130,6 +130,16 @@ gpg --import TrueCrypt_Team_PGP_public_key.asc TrueCrypt-Foundation-Public-Key.a
 
 You can import `TrueCrypt_Foundation_PGP_public_key.asc` too, if you'd like.
 
+Alternatively, you can import the keys from a key server directly (via HKP protocol), using the id from the keyfile you verified previously:
+
+```
+$ gpg --keyserver pgp.mit.edu --recv-keys 0xF0D6B1E0
+gpg: requesting key F0D6B1E0 from hkp server pgp.mit.edu
+gpg: key F0D6B1E0: public key "TrueCrypt Foundation <info@truecrypt-foundation.org>" imported
+gpg: no ultimately trusted keys found
+gpg: Total number processed: 1
+gpg:               imported: 1
+```
 
 ### Trust the keys
 
