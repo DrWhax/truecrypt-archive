@@ -4,8 +4,12 @@ os:
  - linux
 
 before_script:
- - gpg --keyserver pgp.mit.edu --recv-keys 0xF0D6B1E0
- - gpg --import *.asc
+ - gpg --import e4m_public_pgp_key.asc
+ - gpg --import Scramdisk-key.asc
+ - gpg --import TrueCrypt-key.asc
+ - gpg --import TrueCrypt-Foundation-Public-Key.asc
+ - gpg --import TrueCrypt_Foundation_PGP_public_key.asc
+ - gpg --import TrueCrypt_Team_PGP_public_key.asc
 
 script:
  - gpg --status-fd 2 --verify-files *.sig
