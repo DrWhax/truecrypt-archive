@@ -17,42 +17,70 @@ At least these files are missing, and there are probably a lot more files that w
 
 Most wanted:
 
-* `truecrypt-3.0.zip`
 * `truecrypt-3.0-source-code.zip`
 * `truecrypt-4.3-source-code.zip.sig`
 * `TrueCrypt 5.0 Source.tar.gz.sig`
 
-Not as important:
+Missing `.sig` files for current files:
 
+* `TrueCrypt 5.0a Leopard Intel.dmg.sig`
+* `TrueCrypt 5.1 Leopard.dmg.sig`
+* `TrueCrypt 5.1a Leopard.dmg.sig`
+* `TrueCrypt 5.1a Tiger.dmg.sig`
+* `truecrypt-4.0-opensuse-10.0-x86.tar.gz.sig`
+* `truecrypt-4.0-suse-9.2-x86.tar.gz.sig`
+* `truecrypt-4.0-ubuntu-5.04-x86.tar.gz.sig`
+* `truecrypt-4.0-ubuntu-5.10-x64.tar.gz.sig`
+* `truecrypt-4.0-ubuntu-5.10-x86.tar.gz.sig`
+* `truecrypt-4.1-opensuse-10.0-x86.tar.gz.sig`
+* `truecrypt-4.1-suse-9.2-x86.tar.gz.sig`
+* `truecrypt-4.1-suse-9.3-x86.tar.gz.sig`
+* `truecrypt-4.1-ubuntu-5.04-x86.tar.gz.sig`
+* `truecrypt-4.1-ubuntu-5.10-x86.tar.gz.sig`
+* `truecrypt-4.2-fedora-core-4-x86.tar.gz.sig`
+* `truecrypt-4.2-fedora-core-5-x86.tar.gz.sig`
+* `truecrypt-4.2-opensuse-10.0-x86.tar.gz.sig`
+* `truecrypt-4.2-suse-9.3-x86.tar.gz.sig`
+* `truecrypt-4.2-ubuntu-5.04-x86.tar.gz.sig`
+* `truecrypt-4.2-ubuntu-5.10-x86.tar.gz.sig`
 * `truecrypt-4.2a-fedora-core-4-x86.tar.gz.sig`
 * `truecrypt-4.2a-fedora-core-5-x86.tar.gz.sig`
-* `truecrypt-4.2a-ubuntu-5.10-x86.tar.gz`
+* `truecrypt-4.2a-opensuse-10.0-x86.tar.gz.sig`
+* `truecrypt-4.2a-opensuse-10.1-x64.tar.gz.sig`
+* `truecrypt-4.2a-opensuse-10.1-x86.tar.gz.sig`
+* `truecrypt-4.2a-suse-9.3-x86.tar.gz.sig`
+* `truecrypt-4.2a-ubuntu-5.04-x86.tar.gz.sig`
 * `truecrypt-4.2a-ubuntu-5.10-x86.tar.gz.sig`
+* `truecrypt-4.2a-ubuntu-6.06-x64.tar.gz.sig`
+* `truecrypt-4.3-opensuse-10.2-x86.tar.gz.sig`
+* `truecrypt-4.3-ubuntu-6.06-x86.tar.gz.sig`
+* `truecrypt-4.3-ubuntu-6.10-x64.tar.gz.sig`
+* `truecrypt-4.3-ubuntu-6.10-x86.tar.gz.sig`
+* `truecrypt-4.3a-opensuse-10.2-x86.tar.gz.sig`
+* `truecrypt-5.0-opensuse-x86.tar.gz.sig`
+* `truecrypt-5.0a-opensuse-x86.tar.gz.sig`
+* `truecrypt-5.1-opensuse-x86.tar.gz.sig`
+* `truecrypt-5.1-ubuntu-x64.tar.gz.sig`
+* `truecrypt-5.1-ubuntu-x86.tar.gz.sig`
+
+Other known files:
+
 * `truecrypt-4.3a-ubuntu-6.06-x86.tar.gz`
 * `truecrypt-4.3a-ubuntu-6.06-x86.tar.gz.sig`
 * `truecrypt-4.3a-ubuntu-7.04-x64.tar.gz`
 * `truecrypt-4.3a-ubuntu-7.04-x64.tar.gz.sig`
 * `truecrypt-4.3a-ubuntu-7.04-x86.tar.gz`
 * `truecrypt-4.3a-ubuntu-7.04-x86.tar.gz.sig`
-* `truecrypt-4.3a-opensuse-10.2-x86.tar.gz.sig`
 * `TrueCrypt 5.0 Leopard Intel.dmg`
 * `TrueCrypt 5.0 Leopard Intel.dmg.sig`
 * `TrueCrypt 5.0 Leopard PowerPC.dmg`
 * `TrueCrypt 5.0 Leopard PowerPC.dmg.sig`
 * `TrueCrypt 5.0 Tiger Intel.dmg`
 * `TrueCrypt 5.0 Tiger Intel.dmg.sig`
-* `TrueCrypt 5.0 Tiger PowerPC.dmg`
-* `TrueCrypt 5.0 Tiger PowerPC.dmg.sig`
-* `truecrypt-5.0-opensuse-x86.tar.gz.sig`
-* `truecrypt-5.0-ubuntu-x86.tar.gz.sig`
-* `TrueCrypt 5.0a Leopard Intel.dmg.sig`
 * `TrueCrypt 5.0a Leopard PowerPC.dmg`
 * `TrueCrypt 5.0a Leopard PowerPC.dmg.sig`
 * `TrueCrypt 5.0a Tiger Intel.dmg`
 * `TrueCrypt 5.0a Tiger Intel.dmg.sig`
-* `TrueCrypt 5.0a Tiger PowerPC.dmg`
-* `TrueCrypt 5.0a Tiger PowerPC.dmg.sig`
-* `truecrypt-5.1-ubuntu-x86.tar.gz.sig`
 
 
 ## TrueCrypt 7.2
