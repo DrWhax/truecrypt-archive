@@ -4,8 +4,7 @@ This is a list of the licenses used in the different TrueCrypt versions.
 
 * 1.0, 1.0a: `TRUECRYPT LICENSE`
 * 2.0: `GNU GPLv2` (No, I'm not kidding)
-* 2.1, 2.1a, 3.0a, 3.1, 3.1a: `TRUECRYPT LICENSE`
-    * 3.0: Unknown, presumably `TRUECRYPT LICENSE`
+* 2.1, 2.1a, 3.0, 3.0a, 3.1, 3.1a: `TRUECRYPT LICENSE`
 * 4.0, 4.1, 4.2: `TrueCrypt License Version 2.0`
 * 4.2a: `TrueCrypt Collective License Version 1.0` (`TrueCrypt License Version 2.1`)
 * 4.3: `TrueCrypt Collective License Version 1.1` (`TrueCrypt License Version 2.2`)
