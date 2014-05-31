@@ -1,0 +1,15 @@
+language: c
+
+os:
+ - linux
+
+before_script:
+ - gpg --import e4m_public_pgp_key.asc
+ - gpg --import Scramdisk-key.asc
+ - gpg --import TrueCrypt-key.asc
+ - gpg --import TrueCrypt-Foundation-Public-Key.asc
+ - gpg --import TrueCrypt_Foundation_PGP_public_key.asc
+ - gpg --import TrueCrypt_Team_PGP_public_key.asc
+
+script:
+ - gpg --status-fd 2 --verify-files *.sig
