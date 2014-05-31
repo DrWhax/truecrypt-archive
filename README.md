@@ -1,5 +1,7 @@
 # TrueCrypt Archive
 
+[![Build Status](https://travis-ci.org/DrWhax/truecrypt-archive.svg)](https://travis-ci.org/DrWhax/truecrypt-archive)
+
 This is a tin foil hat area. Please put on your tin foil hat before proceeding.
 
 Most of the files are from different collections that people have provided. 
