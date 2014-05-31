@@ -1,6 +1,12 @@
 # TrueCrypt Archive
 
-[![Build Status](https://travis-ci.org/DrWhax/truecrypt-archive.svg)](https://travis-ci.org/DrWhax/truecrypt-archive)
+Does the master branch pass the signature check test:  [![Build Status](https://travis-ci.org/DrWhax/truecrypt-archive.svg)](https://travis-ci.org/DrWhax/truecrypt-archive)
+
+There could be two statuses:
+- Green - passes the test, archive matches the PGP signatures
+- Red - don't pass the test, something isn't matching.
+
+----
 
 This is a tin foil hat area. Please put on your tin foil hat before proceeding.
 
