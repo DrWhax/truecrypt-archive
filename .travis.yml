@@ -8,4 +8,4 @@ before_script:
  - gpg --import *.asc
 
 script:
- - gpg -vv --verify-files *.sig
+ - gpg --status-fd 2 --verify-files *.sig
