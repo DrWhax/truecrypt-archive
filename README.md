@@ -1,13 +1,5 @@
 # TrueCrypt Archive
 
-Does the master branch pass the signature check test:  [![Build Status](https://travis-ci.org/DrWhax/truecrypt-archive.svg)](https://travis-ci.org/DrWhax/truecrypt-archive)
-
-There could be two statuses:
-- Green - passes the test, archive matches the PGP signatures
-- Red - don't pass the test, something isn't matching.
-
-----
-
 This is a tin foil hat area. Please put on your tin foil hat before proceeding.
 
 Most of the files are from different collections that people have provided. 
@@ -17,7 +9,12 @@ Most of the files are from different collections that people have provided.
 
 If you have any new files, either in the list below or files that we don't know about, please contact us!
 
-We try to get signature files for everything, but sometimes we often include files even if we lack signature files, if the source seems trustworthy. Please be aware of this, and trust the files accordingly.
+We try to get signature files for everything, but we often include files even if we lack signature files, if the source seems trustworthy. Please be aware of this, and trust the files accordingly.
+
+### Repository status: [![Build Status](https://travis-ci.org/DrWhax/truecrypt-archive.svg)](https://travis-ci.org/DrWhax/truecrypt-archive)
+
+- `build passing` (green) - all packages with `.sig` files are valid.
+- `build failing` (red) - a package is corrupted or a signature is invalid.
 
 ## Missing files
 
@@ -213,7 +210,9 @@ for f in *.sig; do echo "Verifying '$f'"; gpg --verify "$f"; echo; done
 
 #### Windows
 
-In Windows you can use this bat script:
+If you are using Windows, the easiest way to get gpg is by downloading [Gpg4win](http://gpg4win.org/download.html) (Vanilla version is enough), and then adding `C:\Program Files (x86)\GNU\GnuPG\pub` to your `PATH`.
+
+You can use this bat script:
 ```
 @echo off
 for %%f in (*.sig) do (
