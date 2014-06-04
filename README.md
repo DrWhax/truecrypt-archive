@@ -186,6 +186,8 @@ Select option 5, _I trust ultimately_.
 
 ### Verify the files
 
+#### Mac/Linux
+
 I made a bash script, like so:
 
 ```
@@ -203,9 +205,9 @@ done
 4. Just run `~/verify-sigs.sh` to verify all files.
 5. Run `~/verify-sigs.sh &>verification.txt` to save the output to file.
 
-If you don't want a file, you can just run this one-liner:
+If you want a one-liner, you can try this::
 ```
-for f in *.sig; do echo "Verifying '$f'"; gpg --verify "$f"; echo; done
+$ gpg --status-fd 1 --verify-files *.sig
 ```
 
 #### Windows
