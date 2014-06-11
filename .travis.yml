@@ -13,3 +13,7 @@ before_script:
 
 script:
  - gpg --status-fd 2 --verify-files *.sig
+
+branches:
+ only:
+  - master
