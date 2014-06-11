@@ -1,4 +1,4 @@
-TrueCrypt License Version 2.8
+TrueCrypt License Version 3.0
 
 Software distributed under this license is distributed on an "AS
 IS" BASIS WITHOUT WARRANTIES OF ANY KIND. THE AUTHORS AND
@@ -56,7 +56,7 @@ product, or any portion thereof, made available for download).
 
 
 
-II. Terms and Conditions for Use, Copying, and Distribution
+II. Use, Copying, and Distribution of This Product
 
 1. Provided that You comply with all applicable terms and
 conditions of this License, You may make copies of This Product
@@ -73,8 +73,7 @@ commercial and/or commercial purposes.
 
 
 
-III. Terms and Conditions for Modification and Derivation of New
-Products
+III. Modification, Derivation, and Inclusion in Other Products
 
 1. If all conditions specified in the following paragraphs in
 this Chapter (III) are met (for exceptions, see Section III.2)
@@ -94,15 +93,6 @@ Your Product.
     any other names confusingly similar to the name TrueCrypt
     (e.g., True-Crypt, True Crypt, TruKrypt, etc.)
 
-    Note: TrueCrypt and the TrueCrypt logos are trademarks of
-    the TrueCrypt Foundation. The goal is not to monetize the
-    name or the product, but to protect the reputation of
-    TrueCrypt, and to prevent support issues and other kinds of
-    issues that might arise from the existence of similar
-    products with the same or similar name. Even though
-    TrueCrypt and the TrueCrypt logos are trademarks, TrueCrypt
-    is and will remain open-source and free software.
-
     All occurrences of the name TrueCrypt that could reasonably
     be considered to identify Your Product must be removed from
     Your Product and from any associated materials. Logo(s)
@@ -111,7 +101,7 @@ Your Product.
     confusingly similar to any of the TrueCrypt logos
     (including, but not limited to, the non-textual logo
     consisting primarily of a key in stylized form) or
-    portion(s) thereof. All graphics contained  in This Product
+    portion(s) thereof. All graphics contained in This Product
     (logos, icons, etc.) must be removed from Your Product (or
     from Your modified version of This Product) and from any
     associated materials.
@@ -151,25 +141,29 @@ Your Product.
 
     d. The complete source code of Your Product must be freely
     and publicly available (for exceptions, see Section III.2)
-    at least until You cease to distribute Your Product and
-    there must be a well-publicized means of obtaining the
-    source code free of charge or for a reasonable reproduction
-    fee (at least until You cease to distribute Your Product).
-    Examples of possible ways to meet these conditions: (i) You
-    include the source code with every copy of Your Product that
-    You make and distribute (see also below in this Subsection
-    III.1.d for conditions that licenses governing the source
-    code must meet) provided that You make the copies available
-    to the general public free of charge or for a reasonable
-    reproduction fee, or (ii) You include information (valid and
-    correct at least until You cease to distribute Your Product)
-    about where the source code can be freely obtained (e.g., an
-    Internet address, etc.) with every copy of Your Product that
-    You make and distribute (see also below in this Subsection
-    III.1.d for conditions that licenses governing the source
-    code must meet) provided that You make the copies available
-    to the general public free of charge or for a reasonable
-    reproduction fee.
+    at least until You cease to distribute Your Product. This
+    condition can be met in one or both of the following ways:
+    (i) You include the complete source code of Your Product
+    with every copy of Your Product that You make and distribute
+    and You make all such copies of Your Product available to
+    the general public free of charge, and/or (ii) You include
+    information (valid and correct at least until You cease to
+    distribute Your Product) about where the complete source
+    code of Your Product can be obtained free of charge (e.g.,
+    an Internet address) or for a reasonable reproduction fee
+    with every copy of Your Product that You make and distribute
+    and, if there is a web site officially associated with Your
+    Product, You include the aforementioned information about
+    the source code on a freely and publicly accessible web
+    page to which such web site links via an easily viewable
+    hyperlink (at least until You cease to distribute Your
+    Product).
+
+    The source code of Your Product must not be deliberately
+    obfuscated and it must not be in an intermediate form (e.g.,
+    the output of a preprocessor). Source code means the
+    preferred form in which a programmer would usually modify
+    the program.
 
     Portions of the source code of Your Product not contained in
     This Product (e.g., portions added by You in creating Your
@@ -184,15 +178,7 @@ Your Product.
     interpret, amend, modify, interfere with or otherwise affect
     any part, term, provision, or clause of this License. The
     text(s) of the license(s) must be included with every copy
-    of Your Product that You make and distribute. The source
-    code must not be deliberately obfuscated, and it must not be
-    in an intermediate form (e.g., the output of a
-    preprocessor). Source code means the preferred form in which
-    a programmer would usually modify the program.
-
-    Note: If you cannot comply with the above requirements, we
-    may grant an exception under certain conditions. You may
-    request an exception at: licensing@truecrypt.org
+    of Your Product that You make and distribute.
 
     e. You must not change the license terms of This Product in
     any way (adding any new terms is considered changing the
@@ -214,10 +200,6 @@ Your Product.
 Your Product is not distributed (i.e., Your Product is available
 only to You).
 
-Note: If you cannot comply with Subsection III.1.d, we may grant
-an exception under certain conditions. You may request an
-exception at: licensing@truecrypt.org
-
 
 
 IV. Disclaimer of Liability, Disclaimer of Warranty,
@@ -226,23 +208,23 @@ Indemnification
 You expressly acknowledge and agree to the following:
 
 1. IN NO EVENT WILL ANY (CO)AUTHOR OF THIS PRODUCT, OR ANY
-APPLICABLE COPYRIGHT/TRADEMARK OWNER, OR ANY OTHER PARTY WHO MAY
-COPY AND/OR (RE)DISTRIBUTE THIS PRODUCT OR PORTIONS THEREOF, AS
-MAY BE PERMITTED HEREIN, BE LIABLE TO YOU OR TO ANY OTHER PARTY
-FOR ANY DAMAGES, INCLUDING, BUT NOT LIMITED TO, ANY DIRECT,
-INDIRECT, GENERAL, SPECIAL, INCIDENTAL, PUNITIVE, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, CORRUPTION
-OR LOSS OF DATA, ANY LOSSES SUSTAINED BY YOU OR THIRD PARTIES, A
-FAILURE OF THIS PRODUCT TO OPERATE WITH ANY OTHER PRODUCT,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR BUSINESS
-INTERRUPTION), WHETHER IN CONTRACT, STRICT LIABILITY, TORT
-(INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE) OR OTHERWISE,
+APPLICABLE INTELLECTUAL-PROPERTY OWNER, OR ANY OTHER PARTY WHO
+MAY COPY AND/OR (RE)DISTRIBUTE THIS PRODUCT OR PORTIONS THEREOF,
+AS MAY BE PERMITTED HEREIN, BE LIABLE TO YOU OR TO ANY OTHER
+PARTY FOR ANY DAMAGES, INCLUDING, BUT NOT LIMITED TO, ANY
+DIRECT, INDIRECT, GENERAL, SPECIAL, INCIDENTAL, PUNITIVE,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, CORRUPTION OR LOSS OF DATA, ANY LOSSES SUSTAINED BY YOU OR
+THIRD PARTIES, A FAILURE OF THIS PRODUCT TO OPERATE WITH ANY
+OTHER PRODUCT, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR
+BUSINESS INTERRUPTION), WHETHER IN CONTRACT, STRICT LIABILITY,
+TORT (INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE) OR OTHERWISE,
 ARISING OUT OF THE USE, COPYING, MODIFICATION, OR
 (RE)DISTRIBUTION OF THIS PRODUCT (OR A PORTION THEREOF) OR OF
 YOUR PRODUCT (OR A PORTION THEREOF), OR INABILITY TO USE THIS
-PRODUCT (OR A PORTION THEREOF), EVEN IF ANY (CO)AUTHOR,
-COPYRIGHT/TRADEMARK OWNER, OR ANY OTHER PARTY HAS BEEN ADVISED
-OF THE POSSIBILITY OF SUCH DAMAGES.
+PRODUCT (OR A PORTION THEREOF), EVEN IF SUCH DAMAGES (OR THE
+POSSIBILITY OF SUCH DAMAGES) ARE/WERE PREDICTABLE OR KNOWN TO
+ANY (CO)AUTHOR, INTELLECTUAL-PROPERTY OWNER, OR ANY OTHER PARTY.
 
 2. THIS PRODUCT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY
 KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING, BUT NOT
@@ -263,7 +245,7 @@ IS SOLELY YOUR RESPONSIBILITY TO COMPLY WITH ANY APPLICABLE
 REGULATIONS, RESTRICTIONS, AND LAWS.
 
 4. YOU SHALL INDEMNIFY, DEFEND AND HOLD ALL (CO)AUTHORS OF THIS
-PRODUCT, AND APPLICABLE COPYRIGHT/TRADEMARK OWNERS, HARMLESS
+PRODUCT, AND APPLICABLE INTELLECTUAL-PROPERTY OWNERS, HARMLESS
 FROM AND AGAINST ANY AND ALL LIABILITY, DAMAGES, LOSSES,
 SETTLEMENTS, PENALTIES, FINES, COSTS, EXPENSES (INCLUDING
 REASONABLE ATTORNEYS' FEES), DEMANDS, CAUSES OF ACTION, CLAIMS,
@@ -284,18 +266,6 @@ use trademarks associated with (or applying to) This Product
 automatically and immediately terminates Your rights under This
 License and may constitute trademark infringement (which may be
 prosecuted).
-
-TrueCrypt is a registered trademark of the TrueCrypt Foundation
-registered with the World Intellectual Property Organization, an
-agency of the United Nations, (international trademark
-registration), in the U.S. Patent and Trademark Office, and in
-the trademark offices of other countries. All TrueCrypt logos
-(including the non-textual logo consisting primarily of a key in
-stylized form) are trademarks of the TrueCrypt Foundation.
-
-Note: The goal is not to monetize the name or the product, but
-to protect the reputation of TrueCrypt. TrueCrypt is and will
-remain open-source and free software.
 
 
 
@@ -332,9 +302,9 @@ AS A PROMISE, OBLIGATION, OR COVENANT NOT TO SUE FOR COPYRIGHT
 OR TRADEMARK INFRINGEMENT IF YOU DO NOT COMPLY WITH THE TERMS
 AND CONDITIONS OF THIS LICENSE.
 
-3. This license does not constitute or imply a waiver of any
+3. This License does not constitute or imply a waiver of any
 intellectual property rights except as may be otherwise
-expressly provided in this License. This license does not
+expressly provided in this License. This License does not
 transfer, assign, or convey any intellectual property rights
 (e.g., it does not transfer ownership of copyrights or
 trademarks).
@@ -342,8 +312,8 @@ trademarks).
 4. Subject to the terms and conditions of this License, You may
 allow a third party to use Your copy of This Product (or a copy
 that You make and distribute, or Your Product) provided that the
-third party overtly accepts and agrees to be bound by all terms
-and conditions of this License and the third party is not
+third party explicitly accepts and agrees to be bound by all
+terms and conditions of this License and the third party is not
 prohibited from using This Product (or portions thereof) by this
 License (see, e.g., Section VI.7) or by applicable law. However,
 You are not obligated to ensure that the third party accepts
