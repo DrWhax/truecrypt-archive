@@ -11,7 +11,7 @@ If you have any new files, either in the list below or files that we don't know 
 
 We try to get signature files for everything, but we often include files even if we lack signature files, if the source seems trustworthy. Please be aware of this, and trust the files accordingly.
 
-### Repository status: [![Build Status](https://travis-ci.org/DrWhax/truecrypt-archive.svg)](https://travis-ci.org/DrWhax/truecrypt-archive)
+### Repository status: [![Build Status](https://travis-ci.org/DrWhax/truecrypt-archive.svg?branch=master)](https://travis-ci.org/DrWhax/truecrypt-archive)
 
 - `build passing` (green) - all packages with `.sig` files are valid.
 - `build failing` (red) - a package is corrupted or a signature is invalid.
